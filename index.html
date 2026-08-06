@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bharat FIH · AOI Team Portal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="pcb-texture">
+
+<div class="login-shell">
+  <div class="login-card">
+    <a href="index.html" class="brand">
+      <span class="chip"></span>
+      <span>
+        BHARAT FIH
+        <small>SPI &amp; AOI Team</small>
+      </span>
+    </a>
+
+    <h2 class="login-title">Team sign-in</h2>
+    <p class="login-sub">Select your name, enter your password, and you'll land on the team portfolio.</p>
+
+    <div class="member-select" id="memberSelect"></div>
+
+    <form id="loginForm">
+      <div class="login-error" id="loginError"></div>
+      <div class="field">
+        <label for="usernameField">Username</label>
+        <input type="text" id="usernameField" autocomplete="username" placeholder="e.g. saravanan.v" required>
+      </div>
+      <div class="field">
+        <label for="passwordField">Password</label>
+        <input type="password" id="passwordField" autocomplete="current-password" placeholder="••••••••" required>
+      </div>
+      <button type="submit" class="btn-primary">Sign in</button>
+    </form>
+
+    <p class="login-hint">Forgot your password? Ask your team lead — credentials are stored in <code>js/members.js</code>.</p>
+  </div>
+</div>
+
+<script src="js/members.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
