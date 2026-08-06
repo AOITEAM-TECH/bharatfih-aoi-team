@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bharat FIH · SPI & AOI Team Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="wrap">
+    <a href="portfolio.html" class="brand">
+      <span class="chip"></span>
+      <span>BHARAT FIH<small>SPI &amp; AOI Team</small></span>
+    </a>
+    <ul class="navlinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="training.html">Training</a></li>
+    </ul>
+    <div class="nav-user">
+      <span class="dot"></span>
+      <span id="navUserLabel">Guest</span>
+      <button class="btn-ghost" id="logoutBtn">Sign out</button>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================= HERO ============================= -->
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Bharat FIH · Surface Mount Technology</span>
+    <h1>Precision inspection. Zero defects reach the line.</h1>
+    <p class="lead">
+      The home base for the SPI &amp; AOI team inside Bharat FIH's SMT process — built so
+      anyone joining the team gets up to speed on who we are, what we inspect, and how a
+      board moves from bare paste to a passed board.
+    </p>
+    <div class="hero-ctas">
+      <a href="#team" class="btn btn-dark">Meet the team</a>
+      <a href="#process" class="btn btn-outline">See the process</a>
+    </div>
+  </div>
+
+  <div class="showcase">
+    <div class="showcase-inner">
+      <div class="pcb-card">
+        <svg viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="20" y="20" width="260" height="260" rx="6" stroke="#333" stroke-width="1.5"/>
+          <path d="M20 90 H120 V60 H220" stroke="var(--copper)" stroke-width="2" opacity="0.9"/>
+          <path d="M20 150 H80 V220 H180 V190 H280" stroke="var(--copper)" stroke-width="2" opacity="0.6"/>
+          <path d="M60 20 V80 H160 V150" stroke="#555" stroke-width="2" opacity="0.6"/>
+          <path d="M240 20 V70 H200 V130 H260 V280" stroke="var(--green)" stroke-width="2" opacity="0.7"/>
+          <rect x="100" y="100" width="46" height="26" rx="2" fill="#161616" stroke="#3a3a3a"/>
+          <rect x="160" y="140" width="70" height="18" rx="2" fill="#161616" stroke="#3a3a3a"/>
+          <rect x="70" y="180" width="30" height="30" rx="15" fill="#161616" stroke="#3a3a3a"/>
+          <circle cx="240" cy="90" r="10" fill="#161616" stroke="#3a3a3a"/>
+          <circle cx="60" cy="60" r="5" fill="var(--copper)"/>
+          <circle cx="220" cy="240" r="5" fill="var(--green)"/>
+          <g>
+            <circle cx="150" cy="150" r="46" stroke="var(--blue)" stroke-width="1.6" opacity="0.9"/>
+            <circle cx="150" cy="150" r="3" fill="var(--blue)"/>
+            <path d="M150 104 V118 M150 182 V196 M104 150 H118 M182 150 H196" stroke="var(--blue)" stroke-width="1.6"/>
+          </g>
+        </svg>
+      </div>
+      <p class="showcase-caption"><b>Solder Paste Inspection</b> and two stages of <b>Automatic Optical Inspection</b> — our checkpoints on the SMT line.</p>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><div class="num">3</div><div class="lbl">Inspection stations</div></div>
+      <div class="stat"><div class="num">7</div><div class="lbl">Team members</div></div>
+      <div class="stat"><div class="num">2</div><div class="lbl">AOI stages</div></div>
+      <div class="stat"><div class="num">100%</div><div class="lbl">Boards inspected</div></div>
+    </div>
+  </div>
+</header>
+
+<!-- ============================= ABOUT ============================= -->
+<section class="section soft" id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Who we are</span>
+      <h2>The last line of defense before a board leaves SMT.</h2>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p>
+          Bharat FIH runs high-volume PCB assembly across several domains inside Surface Mount
+          Technology (SMT) — the process of soldering electronic components directly onto the
+          surface of a printed circuit board. Our team sits inside that process as the
+          quality checkpoint: nothing moves forward without passing through us first.
+        </p>
+        <p>
+          We specifically own two checkpoints on the line — <strong>SPI (Solder Paste Inspection)</strong>,
+          right after paste printing, and <strong>AOI (Automatic Optical Inspection)</strong>,
+          which we run in two stages after placement and reflow. Together, these three stations
+          catch the majority of defects before a board ever reaches final test.
+        </p>
+      </div>
+      <div>
+        <div class="pillar">
+          <div class="idx">01</div>
+          <div><h4>Catch it early</h4><p>SPI flags paste problems before components are even placed — the earliest possible save.</p></div>
+        </div>
+        <div class="pillar">
+          <div class="idx">02</div>
+          <div><h4>Verify twice</h4><p>Two AOI stages mean a defect has to slip past two separate optical checks to reach the customer.</p></div>
+        </div>
+        <div class="pillar">
+          <div class="idx">03</div>
+          <div><h4>Keep the line moving</h4><p>Fast, consistent calls at each station keep the SMT line running without unnecessary holds.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= PROCESS ============================= -->
+<section class="section" id="process">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">How a board moves through us</span>
+      <h2>From bare paste to a passed board.</h2>
+    </div>
+
+    <div class="flow">
+      <div class="flow-step">
+        <div class="step-idx">STEP 01</div>
+        <div class="step-body">
+          <h4>Solder paste printing</h4>
+          <p>Solder paste is stencil-printed onto the bare board's pads — the foundation every component will sit on.</p>
+        </div>
+        <div class="step-tag">SMT line</div>
+      </div>
+
+      <div class="flow-step owned">
+        <div class="step-idx">STEP 02</div>
+        <div class="step-body">
+          <h4>SPI — Solder Paste Inspection</h4>
+          <p>We measure paste volume, height, and alignment on every pad. Bad paste gets caught here, before a single component is placed.</p>
+        </div>
+        <div class="step-tag">Our team</div>
+      </div>
+
+      <div class="flow-step">
+        <div class="step-idx">STEP 03</div>
+        <div class="step-body">
+          <h4>Component placement</h4>
+          <p>Pick-and-place machines position every component onto the pasted pads at high speed.</p>
+        </div>
+        <div class="step-tag">SMT line</div>
+      </div>
+
+      <div class="flow-step">
+        <div class="step-idx">STEP 04</div>
+        <div class="step-body">
+          <h4>Reflow soldering</h4>
+          <p>The board passes through a reflow oven, melting the paste to permanently bond each component to the board.</p>
+        </div>
+        <div class="step-tag">SMT line</div>
+      </div>
+
+      <div class="flow-step owned">
+        <div class="step-idx">STEP 05</div>
+        <div class="step-body">
+          <h4>AOI Stage 1</h4>
+          <p>Immediately after reflow, we optically scan every board for placement shifts, missing parts, tombstoning, and solder bridges.</p>
+        </div>
+        <div class="step-tag">Our team</div>
+      </div>
+
+      <div class="flow-step owned">
+        <div class="step-idx">STEP 06</div>
+        <div class="step-body">
+          <h4>AOI Stage 2 — final check</h4>
+          <p>After any rework, boards return to us for a second, final optical pass before they're cleared to move downstream.</p>
+        </div>
+        <div class="step-tag">Our team</div>
+      </div>
+    </div>
+
+    <div class="def-grid">
+      <div class="def-card">
+        <div class="tag">STATION 01</div>
+        <h4>SPI</h4>
+        <p><strong>Solder Paste Inspection.</strong> A 3D scan of every printed pad, checking paste volume, height, and position right after stencil printing — the earliest quality gate on the line.</p>
+      </div>
+      <div class="def-card">
+        <div class="tag">STATION 02</div>
+        <h4>AOI Stage 1</h4>
+        <p><strong>Automatic Optical Inspection — post-reflow.</strong> A camera system scans every soldered board for missing, misaligned, or shifted components right after reflow.</p>
+      </div>
+      <div class="def-card">
+        <div class="tag">STATION 03</div>
+        <h4>AOI Stage 2</h4>
+        <p><strong>Automatic Optical Inspection — final.</strong> A last optical pass after rework, confirming the board is genuinely clean before it leaves our checkpoint.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= TEAM ============================= -->
+<section class="section" id="team">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">The people at each station</span>
+      <h2>Meet the SPI &amp; AOI team.</h2>
+    </div>
+    <div class="team-grid" id="teamGrid"></div>
+  </div>
+</section>
+
+<!-- ============================= RESOURCES / PPT TEASER ============================= -->
+<section class="section soft" id="resources">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Training material</span>
+      <h2>8 decks, 2 reference images, one gallery.</h2>
+      <p style="margin-top:10px;">LASER, SPP, SPI, NXT – Component Mounting, PRE AOI, POST AOI, VI MATERIAL, and the Holly AOI Training Guideline — all in one place, in the order you'd actually work through them.</p>
+    </div>
+    <div style="text-align:center;">
+      <a href="training.html" class="btn btn-dark">Open the training gallery</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Bharat FIH · SPI &amp; AOI Team Portfolio</p>
+    <p>Built for internal onboarding — not a public product page.</p>
+  </div>
+</footer>
+
+<script src="js/members.js"></script>
+<script src="js/training-data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/chatbot.js"></script>
+</body>
+</html>
