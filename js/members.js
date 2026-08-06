@@ -29,10 +29,10 @@ const TEAM_MEMBERS = [
     blurb: "Runs first-stage optical inspection immediately after reflow, flags component and placement defects."
   },
   {
-    id: "kavimani",
-    name: "Kavimani",
-    username: "kavimani",
-    password: "SMTaoi@03",
+    id: "kavimani-m",
+    name: "Kavimani M",
+    username: "kavimani.m",
+    password: "20241014",
     role: "Process Engineer – SPI & AOI",
     initials: "KM",
     accent: "#1fa463",
