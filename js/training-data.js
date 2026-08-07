@@ -16,6 +16,6 @@ const TRAINING_RESOURCES = [
   { type: "ppt",   title: "POST AOI",                             file: "ppt/post-aoi.pdf" },
   { type: "ppt",   title: "VI MATERIAL",                          file: "ppt/vi-material.pdf" },
   { type: "ppt",   title: "Holly AOI Training Guideline RGB",     file: "ppt/holly-aoi-training-guideline-rgb.pdf" },
-  { type: "image", title: "Reference Image 1",                    file: "images/gallery-1.jpg" },
-  { type: "image", title: "Reference Image 2",                    file: "images/gallery-2.jpg" }
+  { type: "image", title: "SMD Package",                    file: "images/gallery-1.jpg" },
+  { type: "image", title: "SMT Components",                    file: "images/gallery-2.jpg" }
 ];
