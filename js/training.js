@@ -17,7 +17,7 @@
       <div class="gallery-body">
         <span class="gallery-idx">${String(i + 1).padStart(2, "0")}</span>
         <h4>${res.title}</h4>
-        <span class="gallery-type">${res.type === "ppt" ? "Training deck" : "Reference image"}</span>
+        <span class="gallery-type">${res.type === "ppt" ? "Training Module" : "Reference image"}</span>
         <a href="${res.file}" target="_blank" class="gallery-action" data-status="pending">Checking…</a>
       </div>
     `;
@@ -27,7 +27,7 @@
     fetch(res.file, { method: "HEAD", cache: "no-store" })
       .then((r) => {
         if (r.ok) {
-          actionEl.textContent = res.type === "ppt" ? "Open deck →" : "View image →";
+          actionEl.textContent = res.type === "ppt" ? "View Doc →" : "View image →";
           actionEl.dataset.status = "ready";
         } else {
           throw new Error("not found");
