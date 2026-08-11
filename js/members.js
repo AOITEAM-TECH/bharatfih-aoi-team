@@ -39,10 +39,10 @@ const TEAM_MEMBERS = [
     blurb: "Handles final-stage optical inspection, verifies rework outcomes before boards move downstream."
   },
   {
-    id: "boopathy",
-    name: "Boopathy",
-    username: "boopathy",
-    password: "SMTaoi@04",
+    id: "boopathi-k",
+    name: "Boopathi K",
+    username: "boopathi.k",
+    password: "RS0010967",
     role: "Process Engineer – SPI & AOI",
     initials: "BP",
     accent: "#1428a0",
